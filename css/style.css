@@ -1,0 +1,92 @@
+body,html {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.fa {
+  font-size: 40px;
+  margin: auto;
+  position: relative;
+  padding-top: 20px;
+  color: #000;
+  transition: all 2s ease 0.1s;
+  background-color: #fff;
+  height: 50px; width: 75px;
+  border-radius: 100%;
+}
+
+.fa-facebook:hover {
+  height: 100px; width: 160px;
+  padding-top: 55px;
+  padding-left: auto;
+  padding-right: auto;
+  border-radius: 100%;
+  background-color: #3b5998;
+  color: #fff;
+  /* transform: rotate(360deg); */
+  animation-name: move;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.fa-youtube-play:hover {
+  height: 100px; width: 150px;
+  padding-top: 55px;
+  border-radius: 100%;
+  background-color: #ff0000;
+  color: #fff;
+  transform: rotate(360deg);
+  animation-name: move;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.fa-github:hover {
+  height: 100px; width: 150px;
+  padding-top: 55px;
+  border-radius: 100%;
+  background-color: #6e5494;
+  color: #fff;
+  /* transform: rotate(360deg); */
+  animation-name: move;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.fa-instagram:hover {
+  height: 100px; width: 150px;
+  padding-top: 55px;
+  border-radius: 100%;
+  background-color: #6dc993;
+  color: #fff;
+  transform: rotate(360deg);
+  animation-name: move;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move {
+  0% {
+    font-size: 40px;
+    text-shadow: slategray;
+  }
+
+  100% {
+    font-size: 50px;
+    text-shadow: 5px 5px 20px #000;
+  }
+}
